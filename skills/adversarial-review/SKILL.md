@@ -24,7 +24,7 @@ All in parallel, read-only, one per model:
 
 - Reviewer A: a Claude subagent.
 - Reviewer B: Codex (through the codex plugin's rescue agent or `codex review`), read-only.
-- Optional Reviewer C: another available model.
+- Optional Reviewer C: another available model (such as Gemini in Antigravity).
 
 Each gets [`references/reviewer-prompt.md`](references/reviewer-prompt.md) filled with the intent, the diff or file paths, and [`references/rubric.md`](references/rubric.md).
 

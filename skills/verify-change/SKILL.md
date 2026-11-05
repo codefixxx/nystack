@@ -83,4 +83,4 @@ Every finding carries a command or file reference that reproduces it. Follow **p
 
 ## Second opinion
 
-For a risky change, run a second verifier on a different model with the same prompt (for example Codex through the codex plugin, read-only). Merge the two reports. A finding both raised is strong. A finding only one raised gets checked by hand before it counts.
+For a risky change, run a second verifier on a different model with the same prompt (for example Codex through the codex plugin, or Antigravity, read-only). Merge the two reports. A finding both raised is strong. A finding only one raised gets checked by hand before it counts.

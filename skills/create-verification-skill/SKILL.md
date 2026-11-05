@@ -23,7 +23,7 @@ If the checkout does not build or start, fix that or report it exactly before ge
 
 ## 2. Decide where it lives
 
-- Repository the user owns: `.claude/skills/verify-<app>/`.
+- Repository the user owns: `.claude/skills/verify-<app>/` (or `.agents/skills/verify-<app>/` for Antigravity).
 - Upstream repository: `skills/repo-<repo>/verify/` in the user's skills checkout, linked from the repo skill. Never add it to an upstream PR unless the project asks for it.
 
 ## 3. Write the skill

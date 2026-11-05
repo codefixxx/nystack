@@ -10,7 +10,7 @@ This repository is a Claude Code plugin and a skills library. Every skill is a f
 - `skills/repo-*`: rules for one repository, learned from its review history.
 - `agents/`: subagent definitions.
 - `.claude-plugin/`: plugin and marketplace manifests. Bump the version in all three places together.
-- `scripts/validate.py`: the repository check. `scripts/install.sh`: links skills into `~/.claude` (and `~/.codex`).
+- `scripts/validate.py`: the repository check. `scripts/install.sh`: links skills into `~/.claude` (and `~/.codex`, `~/.gemini/config`).
 - `docs/guide/`: the human guide.
 
 ## Rules for skills
