@@ -20,13 +20,13 @@ Pick one.
 /plugin install nystack@nystack
 ```
 
-**As linked skills** (unnamespaced, edits in the checkout apply immediately):
+**As linked skills** (for Claude Code, Codex, or Google Antigravity; unnamespaced, edits in the checkout apply immediately):
 
 ```bash
 git clone https://github.com/Nikshay1/nystack.git ~/Projects/nystack
-~/Projects/nystack/scripts/install.sh            # Claude Code: ~/.claude/skills and ~/.claude/agents
-~/Projects/nystack/scripts/install.sh --codex    # also ~/.codex/skills
-~/Projects/nystack/scripts/install.sh --antigravity  # also ~/.gemini/config/skills
+~/Projects/nystack/scripts/install.sh                 # Claude Code: ~/.claude/skills and ~/.claude/agents
+~/Projects/nystack/scripts/install.sh --codex         # Codex: also ~/.codex/skills
+~/Projects/nystack/scripts/install.sh --antigravity   # Antigravity: also ~/.gemini/config/skills (or --agy)
 ```
 
 Do not use both, or every skill appears twice.
