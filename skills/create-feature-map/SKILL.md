@@ -10,7 +10,7 @@ The map is written for an agent that has never seen the repository and will read
 
 ## 1. Decide where the map lives
 
-- The user owns the repository, or the project wants agent docs in-tree: `.claude/skills/map-<repo>/` with a `SKILL.md` whose description names the repository and says "use to find where a feature's code lives". Commit it with the code.
+- The user owns the repository, or the project wants agent docs in-tree: `.claude/skills/map-<repo>/` (or `.agents/skills/map-<repo>/` for Antigravity) with a `SKILL.md` whose description names the repository and says "use to find where a feature's code lives". Commit it with the code.
 - The user contributes upstream and the project does not want it: `skills/repo-<repo>/feature-map/` in the user's skills checkout (nystack). Link it from that repo skill's `SKILL.md`. It never enters an upstream PR.
 
 Check ownership with `gh repo view --json owner` against `gh api user --jq .login` instead of asking.

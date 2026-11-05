@@ -12,7 +12,7 @@ A feature map is a small set of Markdown files that say, for each user-facing fe
 Look in this order and use the first that exists:
 
 1. In the repository: `.claude/skills/map-*/`, `.agents/skills/map-*/`, or `docs/feature-map/`.
-2. In the user's skills checkout, for repositories the user does not own: `skills/repo-<repo-name>/feature-map/` (installed under `~/.claude/skills/repo-<repo-name>/feature-map/`).
+2. In the user's skills checkout, for repositories the user does not own: `skills/repo-<repo-name>/feature-map/` (installed under `~/.claude/skills/repo-<repo-name>/feature-map/` or `~/.gemini/config/skills/repo-<repo-name>/feature-map/`).
 
 No map → locate the code by searching, follow **principle-never-guess-locations**, and offer `create-feature-map` once the task is done. Do not stop the task to build a map.
 

@@ -53,7 +53,7 @@ Pause for the user before anything outward-facing or hard to undo: pushing to or
 
 - Delegates that write or explore code: `subagent_type: ny-agent`. Give file paths and SHAs, not pasted context.
 - Verification: `subagent_type: verifier`, with the prompt from `../verify-change/references/verifier-prompt.md`.
-- Second opinions: the same prompt on a different model (for example Codex through the codex plugin).
+- Second opinions: the same prompt on a different model (for example Codex through the codex plugin, or Antigravity).
 - You own every subagent's output. Check its claims against the code before repeating them.
 
 ## Writing the reply

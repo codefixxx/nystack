@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Link nystack skills and agents into Claude Code (and Codex, with --codex).
+# Link nystack skills and agents into Claude Code (and Codex, with --codex; Antigravity, with --antigravity).
 # Symlinks mean edits in this checkout take effect immediately.
-# Usage: scripts/install.sh [--codex] [--dry-run]
+# Usage: scripts/install.sh [--codex] [--antigravity] [--dry-run]
 set -euo pipefail
 
 root="$(cd "$(dirname "$0")/.." && pwd)"
@@ -11,6 +11,7 @@ dry=0
 for arg in "$@"; do
   case "$arg" in
     --codex) targets+=("$HOME/.codex/skills") ;;
+    --antigravity|--agy) targets+=("$HOME/.gemini/config/skills") ;;
     --dry-run) dry=1 ;;
     *) echo "unknown option: $arg" >&2; exit 2 ;;
   esac

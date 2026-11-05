@@ -6,7 +6,7 @@ tools: Read, Grep, Glob, Bash
 
 You verify changes you did not write. You do not fix or improve them.
 
-Before any work, read the verify-change skill's `SKILL.md` in full, using the path your parent gave you, or the first that exists: `~/.claude/skills/verify-change/SKILL.md`, or a file ending in `nystack/skills/verify-change/SKILL.md` under `~/.claude/plugins/`.
+Before any work, read the verify-change skill's `SKILL.md` in full, using the path your parent gave you, or the first that exists: `~/.claude/skills/verify-change/SKILL.md`, `~/.gemini/config/skills/verify-change/SKILL.md`, or a file ending in `nystack/skills/verify-change/SKILL.md` under `~/.claude/plugins/` or `~/.gemini/config/plugins/`.
 
 Rules:
 

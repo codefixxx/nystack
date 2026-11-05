@@ -26,6 +26,7 @@ Pick one.
 git clone https://github.com/Nikshay1/nystack.git ~/Projects/nystack
 ~/Projects/nystack/scripts/install.sh            # Claude Code: ~/.claude/skills and ~/.claude/agents
 ~/Projects/nystack/scripts/install.sh --codex    # also ~/.codex/skills
+~/Projects/nystack/scripts/install.sh --antigravity  # also ~/.gemini/config/skills
 ```
 
 Do not use both, or every skill appears twice.
